@@ -1,0 +1,40 @@
+<div class="card">
+    <div class="card-header myborder text-black">
+        <div class="d-flex">
+            <h2 class="display float-start mt-3 mx-lg-1 w">Sign in</h2>
+        </div>
+        <div class="d-flex">
+            <h6 class="display float-start mx-lg-1">Stay updated on your professional world</h6>
+        </div>
+    </div>
+    <div class="card-body body text-black">
+      <div class="mb-3">
+        <input type="username" class="form-control" id="username" placeholder="Username or Email" name="username">
+      </div>
+      <div class="input-group mb-3" id="forgot_password">
+        <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+        <button class="btn btn-outline-secondary" onclick="showPassword()">show</button>
+      </div>
+      <div class="mb-1 mt-3">
+        <button onclick="forgotPwdTggler()" class="forgot">Forgot Password?</button>
+      </div>
+      <div class="d-grid mt-4">
+        <button type="signin" class="btn btn-lg btn-primary rounded-pill active">Sign in</button>
+      </div>
+      <div class="d-grid mt-1">
+        <div class="or">
+            <span class="line">
+              or
+            </span>
+          </div>
+      <div class="d-grid mt-3">
+        <button onclick="getAppleSignIn()" class="btn-lg apple rounded-pill ">
+            <img src="./images/Apple_logo_black.svg.png" class="applephoto"/>Sign in with Apple
+        </button>
+      </div>
+    </div>
+    <div>
+
+    </div>
+  </div>
+</div>

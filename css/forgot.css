@@ -1,0 +1,104 @@
+body { 
+    background-color: white;
+}
+
+.myborder {
+    border-bottom: 0;
+    background-color: white;
+}
+
+.display{
+    font-weight: 600;
+}
+
+.body{
+    background-color: white;
+}
+
+.card{
+    box-shadow: 0 2px   2px 0 gray, 0 2px 2px 0 gray;
+}
+
+.or{
+    width: 100%; 
+    height: 20px; 
+    border-bottom: 1px solid gray; 
+    text-align: center;
+}
+
+.line{
+    font-size: 20px; 
+    background-color: white; 
+    color: gray;
+    padding: 0 10px;
+}
+
+.forgot{
+    color: #125ea6 !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a .forgot:hover {
+    color: #125ea6 !important;
+}
+a .forgot:visited {
+    color: #125ea6 !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: white;
+    border-color: #848484;
+    color: #125ea6;
+}
+
+.btn-outline-secondary {
+    border-color: #848484;
+    border-left: 0;
+    color: #0a66c2;
+    font-weight: 600;
+}
+
+input[type="password"] {
+    border-right: 0;
+    border-color: #848484;
+}
+
+input[type="username"] {
+    border-color: #848484;
+}
+
+.btn-outline-secondary:focus {
+    box-shadow: none !important;
+}
+
+.img-thumbnail{
+    border: 0;
+    height: 100px;
+    width: 130px;
+}
+.apple{
+    outline-color: #ced4da;
+    color: #646464;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.applephoto{
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.join{
+    color: #303030;
+}
+
+.joinlink{
+    color: #1e65b2;
+    text-decoration: none;
+}
