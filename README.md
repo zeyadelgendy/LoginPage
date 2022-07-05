@@ -1,2 +1,2 @@
 # LoginPage
-LinkedIn login page done with Bootstrap, HTML, and Javascript.
+LinkedIn login page done with Bootstrap, HTML, and Jquery.
